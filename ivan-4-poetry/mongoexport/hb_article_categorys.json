@@ -1,0 +1,7 @@
+{"_id":"宋诗","parent":"root","_class":"cn.dendarii.ivan.api.content.bean.mongo.HBArticleCategory"}
+{"_id":"唐诗","parent":"root","_class":"cn.dendarii.ivan.api.content.bean.mongo.HBArticleCategory"}
+{"_id":"宋词","parent":"root","_class":"cn.dendarii.ivan.api.content.bean.mongo.HBArticleCategory"}
+{"_id":"李白","parent":"唐诗","_class":"cn.dendarii.ivan.api.content.bean.mongo.HBArticleCategory"}
+{"_id":"苏轼","parent":"宋词","_class":"cn.dendarii.ivan.api.content.bean.mongo.HBArticleCategory"}
+{"_id":"李清照","parent":"宋词","_class":"cn.dendarii.ivan.api.content.bean.mongo.HBArticleCategory"}
+{"_id":"白居易","parent":"唐诗","_class":"cn.dendarii.ivan.api.content.bean.mongo.HBArticleCategory"}
