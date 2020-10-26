@@ -98,7 +98,7 @@ def seq2seq(in_seq, in_seq_len, target_seq, target_seq_len, vocab_size,
                 embedding, tf.fill([batch_size], 0), 1)
     decoder = tf.contrib.seq2seq.BasicDecoder(decoder_cell, helper,
             init_state, output_layer=projection_layer)
-    # dynamic_decode()是一个Decoder类，主要功能是解码序列生成
+    # dynamic_decode()是一个Decoder类，主要功能解码序列生成
     # 依据Encoder进行解码，实现序列的生成（映射)
     outputs, _, _ = tf.contrib.seq2seq.dynamic_decode(decoder,
             maximum_iterations=100)
