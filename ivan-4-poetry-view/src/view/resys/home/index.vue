@@ -28,7 +28,7 @@
           <Row style="text-align: center;">
             <i-input v-model="inputKeyWord" placeholder="输入关键字" clearable/>
             <Button long @click="getFresh" :loading="getFreshLoading" icon="md-refresh"
-                    type="success" style="margin-top: 5px;">按照关键字搜索古诗
+                    type="success" style="margin-top: 5px;">按关键字搜索古诗
             </Button>
           </Row>
         </Card>
